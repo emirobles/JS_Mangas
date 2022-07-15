@@ -18,22 +18,22 @@ const mangaNro1 = new Manga("Dragon Ball Super", "Akira Toriyama", ["shonen", "a
 const mangaNro2 = new Manga("My Hero Academia", "Kōhei Horikoshi", ["shonen", "accion", "drama", "escolar"], 2014, 35, "IVREA")
 const mangaNro3 = new Manga("One Piece", "Eiichirō Oda", ["shonen", "accion", "fantasia", "comedia", "aventura"], 1997, 102, "IVREA")
 const mangaNro4 = new Manga("Death Note", "Tsugumi Ōba", ["shonen", "sisterio", "sobrenatural"], 2003, 12, "IVREA")
-const mangaNro5 = new Manga("Naruto", "Masashi Kishimoto", ["shonen", "accion", "fantasia", "Comedia", "Artes marciales", "Aventura"], 2002, 72, "IVREA")
-const mangaNro6 = new Manga("Boruto", "Ukyō Kodachi", ["shonen", "accion", "Fantasia", "Comedia", "Artes marciales", "Aventura"], 2016, 17, "IVREA")
-const mangaNro7 = new Manga("One Punch-Man", "Akira Toriyama", ["Seinen", "Accion", "Comedia"], 2009, 26, "IVREA")
-const mangaNro8 = new Manga("Sakura Card Captor", "CLAMP", ["Shojo", "Comedia", "Romance", "Escolar"], 1996, 12, "IVREA")
-const mangaNro9 = new Manga("Sailor Moon", "Naoko Takeuchi", ["Shojo", "Comedia", "Romance", "Drama", "Aventura"], 1992, 18, "IVREA")
-const mangaNro10 = new Manga("Kill la Kill", "Kazuki Nakashima", ["Shonen", "Shojo", "Accion", "Comedia", "Drama"], 2013, 3, "IVREA")
-const mangaNro11 = new Manga("Berserk", "Kentaro Miura", ["Seinen", "Accion", "Drama", "Aventura"], 1989, 41, "PANINI")
-const mangaNro12 = new Manga("Shingeki no Kyojin", "Hajime Isayama", ["Shonen", "Accion", "Drama", "Aventura"], 2009, 34, "IVREA")
-const mangaNro13 = new Manga("Jujutsu Kaisen", "Gege Akutami", ["Shonen", "Accion", "Aventura", "Sobrenatural"], 2018, 19, "IVREA")
-const mangaNro14 = new Manga("Kimetsu no Yaiba", "Koyoharu Gotōge", ["Shonen", "Accion", "Aventura", "Sobrenatural"], 2016, 23, "IVREA")
-const mangaNro15 = new Manga("Black Clover", "Yūki Tabata", ["Shonen", "Accion", "Aventura"], 2015, 18, "IVREA")
-const mangaNro16 = new Manga("Spy x Family", "Tatsuya Endō", ["Shonen", "Comedia"], 2019, 9, "IVREA")
-const mangaNro17 = new Manga("Dr. Stone", "Riichiro Inagaki", ["Shonen", "Drama", "Aventura", "Comedia"], 2017, 26, "PANINI")
-const mangaNro18 = new Manga("The Promise Neverland", "Kaiu Shirai", ["Shonen", "Drama", "Aventura", "Misterio"], 2016, 20, "IVREA")
-const mangaNro19 = new Manga("JoJo's Bizarre Adventure", "Hirohiko Araki", ["Shonen", "Seinen", "Accion", "Aventura"], 1987, 131, "IVREA")
-const mangaNro20 = new Manga("Tokyo Revengers", "Ken Wakui", ["Shonen", "Accion", "Drama", "Escolar", "Comedia", "Romance"], 2017, 28, "IVREA")
+const mangaNro5 = new Manga("Naruto", "Masashi Kishimoto", ["shonen", "accion", "fantasia", "comedia", "artes marciales", "aventura"], 2002, 72, "IVREA")
+const mangaNro6 = new Manga("Boruto", "Ukyō Kodachi", ["shonen", "accion", "fantasia", "comedia", "artes marciales", "aventura"], 2016, 17, "IVREA")
+const mangaNro7 = new Manga("One Punch-Man", "Akira Toriyama", ["seinen", "sccion", "comedia"], 2009, 26, "IVREA")
+const mangaNro8 = new Manga("Sakura Card Captor", "CLAMP", ["shojo", "comedia", "romance", "escolar"], 1996, 12, "IVREA")
+const mangaNro9 = new Manga("Sailor Moon", "Naoko Takeuchi", ["shojo", "comedia", "romance", "drama", "aventura"], 1992, 18, "IVREA")
+const mangaNro10 = new Manga("Kill la Kill", "Kazuki Nakashima", ["shonen", "shojo", "accion", "comedia", "drama"], 2013, 3, "IVREA")
+const mangaNro11 = new Manga("Berserk", "Kentaro Miura", ["seinen", "accion", "drama", "aventura"], 1989, 41, "PANINI")
+const mangaNro12 = new Manga("Shingeki no Kyojin", "Hajime Isayama", ["shonen", "accion", "drama", "aventura"], 2009, 34, "IVREA")
+const mangaNro13 = new Manga("Jujutsu Kaisen", "Gege Akutami", ["shonen", "Accion", "aventura", "sobrenatural"], 2018, 19, "IVREA")
+const mangaNro14 = new Manga("Kimetsu no Yaiba", "Koyoharu Gotōge", ["shonen", "accion", "aventura", "sobrenatural"], 2016, 23, "IVREA")
+const mangaNro15 = new Manga("Black Clover", "Yūki Tabata", ["shonen", "accion", "aventura"], 2015, 18, "IVREA")
+const mangaNro16 = new Manga("Spy x Family", "Tatsuya Endō", ["shonen", "comedia"], 2019, 9, "IVREA")
+const mangaNro17 = new Manga("Dr. Stone", "Riichiro Inagaki", ["shonen", "drama", "aventura", "comedia"], 2017, 26, "PANINI")
+const mangaNro18 = new Manga("The Promise Neverland", "Kaiu Shirai", ["shonen", "drama", "aventura", "misterio"], 2016, 20, "IVREA")
+const mangaNro19 = new Manga("JoJo's Bizarre Adventure", "Hirohiko Araki", ["shonen", "seinen", "accion", "aventura"], 1987, 131, "IVREA")
+const mangaNro20 = new Manga("Tokyo Revengers", "Ken Wakui", ["shonen", "accion", "drama", "escolar", "comedia", "romance"], 2017, 28, "IVREA")
 
 const mangas = [mangaNro1, mangaNro2, mangaNro3, mangaNro4, mangaNro5, mangaNro6, mangaNro7, mangaNro8, mangaNro9, mangaNro10, mangaNro11, mangaNro12, mangaNro13, mangaNro14, mangaNro15, mangaNro16, mangaNro17, mangaNro18, mangaNro19, mangaNro20]
 
@@ -67,7 +67,7 @@ switch (respuesta) {
             respuestaValidada = prompt("Ingrese el género que quiere buscar, las opciones son : \n - Shonen\n - Shojo\n - Seinen\n - Accion\n - Drama\n - Escolar\n - Fantasia\n - Comedia\n - Misterio\n - Sobrenatural\n - Artes marciales\n - Romance\n - Aventura\n (Escriba textualmente, sin signos de puntuación)").toLocaleLowerCase()
         } while (respuestaValidada != "shonen" && respuestaValidada != "shojo" && respuestaValidada != "seinen" && respuestaValidada != "accion" && respuestaValidada != "drama" && respuestaValidada != "escolar" && respuestaValidada != "fantasia" && respuestaValidada != "comedia" && respuestaValidada != "misterio" && respuestaValidada != "sobrenatural" && respuestaValidada != "artes marciales" && respuestaValidada != "romance" && respuestaValidada != "aventura")
         // Búsqueda de genero en el array
-        const mangaFiltradoGenero = mangas.filter(manga => manga.categoria.includes(respuestaValidada) == true)
+        const mangaFiltradoGenero = mangas.filter(manga => manga.genero.includes(respuestaValidada) == true)
         mangaFiltradoGenero.forEach(manga => {
             console.log(`Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de género ${manga.genero}. Tuvo su lanzamiento en el año ${manga.lanzamiento} y se encuentra disponible en la Editorial${manga.editorial}` + `</br>`)
             document.write(`★ Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de género ${manga.genero}. Tuvo su lanzamiento en el año ${manga.lanzamiento} y se encuentra disponible en la Editorial${manga.editorial}` + `</br>`)
@@ -103,14 +103,21 @@ switch (respuesta) {
         break
     case 4://Por editorial
         do {
-            respuestaValidada = prompt("Ingrese el nombre de la editorial que prefiera: \n - IVREA\n - PANINI\n (Escriba textualmente, sin signos de puntuación)").toLocaleLowerCase()
-        } while (respuestaValidada != "ivrea" && respuestaValidada != "panini")
+            respuestaValidada = prompt("Ingrese el nombre de la editorial que prefiera: \n - IVREA\n - PANINI\n (Escriba textualmente, sin signos de puntuación)").toUpperCase()
+        } while (respuestaValidada != "IVREA" && respuestaValidada != "PANINI")
         // Búsqueda según la editorial preferida
-        const mangaFiltradoEditorial = mangas.filter(manga => manga.editorial == respuestaValidada)
-        mangaFiltradoEditorial.forEach(manga => {
-            console.log(`Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de la Editorial ${manga.editorial} y consta de ${manga.tomos} tomos` + `</br>`)
-            document.write(`★ Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de la Editorial ${manga.editorial} y consta de ${manga.tomos} tomos` + `</br>`)            
-        })
+        if (respuestaValidada =="IVREA"){
+            const mangaFiltradoEditorialIvrea = mangas.filter(manga => manga.editorial == "IVREA")
+            mangaFiltradoEditorialIvrea.forEach(manga => {
+                console.log(`Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de la Editorial ${manga.editorial} y consta de ${manga.tomos} tomos` + `</br>`)
+                document.write(`★ Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de la Editorial ${manga.editorial} y consta de ${manga.tomos} tomos` + `</br>`)
+            })
+        } else{
+            const mangaFiltradoEditorialPanini = mangas.filter(manga => manga.editorial == "PANINI")
+            mangaFiltradoEditorialPanini.forEach(manga => {
+                console.log(`Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de la Editorial ${manga.editorial} y consta de ${manga.tomos} tomos` + `</br>`)
+                document.write(`★ Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de la Editorial ${manga.editorial} y consta de ${manga.tomos} tomos` + `</br>`)
+            })
+        }
         break
-
 }
