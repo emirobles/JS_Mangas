@@ -26,7 +26,7 @@ const mangaNro9 = new Manga("Sailor Moon", "Naoko Takeuchi", ["shojo", "comedia"
 const mangaNro10 = new Manga("Kill la Kill", "Kazuki Nakashima", ["shonen", "shojo", "accion", "comedia", "drama"], 2013, 3, "IVREA")
 const mangaNro11 = new Manga("Berserk", "Kentaro Miura", ["seinen", "accion", "drama", "aventura"], 1989, 41, "PANINI")
 const mangaNro12 = new Manga("Shingeki no Kyojin", "Hajime Isayama", ["shonen", "accion", "drama", "aventura"], 2009, 34, "IVREA")
-const mangaNro13 = new Manga("Jujutsu Kaisen", "Gege Akutami", ["shonen", "Accion", "aventura", "sobrenatural"], 2018, 19, "IVREA")
+const mangaNro13 = new Manga("Jujutsu Kaisen", "Gege Akutami", ["shonen", "accion", "aventura", "sobrenatural"], 2018, 19, "IVREA")
 const mangaNro14 = new Manga("Kimetsu no Yaiba", "Koyoharu Gotōge", ["shonen", "accion", "aventura", "sobrenatural"], 2016, 23, "IVREA")
 const mangaNro15 = new Manga("Black Clover", "Yūki Tabata", ["shonen", "accion", "aventura"], 2015, 18, "IVREA")
 const mangaNro16 = new Manga("Spy x Family", "Tatsuya Endō", ["shonen", "comedia"], 2019, 9, "IVREA")
@@ -75,11 +75,11 @@ switch (respuesta) {
         break
     case 3://Por cantidad de tomos
         do { 
-            respuestaValidada = parseInt(prompt("Ingrese el número de la opción acorde a la cantidad de tomos que busca para su manga: \n 1 - De 1 a 12 tomos\n 2 - De 13 a 26 tomos\n 1 - Más de 26 tomos"))
+            respuestaValidada = parseInt(prompt("Ingrese el número de la opción acorde a la cantidad de tomos que busca para su manga: \n 1 - De 1 a 12 tomos\n 2 - De 13 a 26 tomos\n 3 - Más de 26 tomos"))
         } while (respuestaValidada != 1 && respuestaValidada != 2 && respuestaValidada != 3)
         switch (respuestaValidada) {
             case 1: //Tomos de 1 a 12
-                const mangaFiltradoTomos1 = mangas.filter(manga => manga.tomos < 13)
+                const mangaFiltradoTomos1 = mangas.filter(manga => manga.tomos <= 12)
                 mangaFiltradoTomos1.forEach(manga => {
                     console.log(`Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de género ${manga.genero}. Consta de ${manga.tomos} tomos y se encuentra disponible en la Editorial ${manga.editorial}` + `</br>`)
                     document.write(`★ Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de género ${manga.genero}. Consta de ${manga.tomos} tomos y se encuentra disponible en la Editorial ${manga.editorial}` + `</br>`)
