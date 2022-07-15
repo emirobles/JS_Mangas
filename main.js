@@ -17,7 +17,7 @@ class Manga {
 const mangaNro1 = new Manga("Dragon Ball Super", "Akira Toriyama", ["shonen", "accion"], 2015, 18, "IVREA")
 const mangaNro2 = new Manga("My Hero Academia", "Kōhei Horikoshi", ["shonen", "accion", "drama", "escolar"], 2014, 35, "IVREA")
 const mangaNro3 = new Manga("One Piece", "Eiichirō Oda", ["shonen", "accion", "fantasia", "comedia", "aventura"], 1997, 102, "IVREA")
-const mangaNro4 = new Manga("Death Note", "Tsugumi Ōba", ["shonen", "sisterio", "sobrenatural"], 2003, 12, "IVREA")
+const mangaNro4 = new Manga("Death Note", "Tsugumi Ōba", ["shonen", "misterio", "sobrenatural"], 2003, 12, "IVREA")
 const mangaNro5 = new Manga("Naruto", "Masashi Kishimoto", ["shonen", "accion", "fantasia", "comedia", "artes marciales", "aventura"], 2002, 72, "IVREA")
 const mangaNro6 = new Manga("Boruto", "Ukyō Kodachi", ["shonen", "accion", "fantasia", "comedia", "artes marciales", "aventura"], 2016, 17, "IVREA")
 const mangaNro7 = new Manga("One Punch-Man", "Akira Toriyama", ["seinen", "sccion", "comedia"], 2009, 26, "IVREA")
@@ -38,7 +38,7 @@ const mangaNro20 = new Manga("Tokyo Revengers", "Ken Wakui", ["shonen", "accion"
 const mangas = [mangaNro1, mangaNro2, mangaNro3, mangaNro4, mangaNro5, mangaNro6, mangaNro7, mangaNro8, mangaNro9, mangaNro10, mangaNro11, mangaNro12, mangaNro13, mangaNro14, mangaNro15, mangaNro16, mangaNro17, mangaNro18, mangaNro19, mangaNro20]
 
 //Inicio del programa
-alert("BIENVENIDO AL CATÁLOGO DE MANGAS \n Contamos con los 20 titulos más recomendados! ")
+alert("★゜・。。・゜゜・。。・゜☆゜・。。・゜゜・。。・゜★゜・。。・゜゜・。。・゜☆゜・。。・゜゜・。。・゜★\n                 BIENVENIDO AL CATÁLOGO DE MANGAS \n★゜・。。・゜゜・。。・゜☆゜・。。・゜゜・。。・゜★゜・。。・゜゜・。。・゜☆゜・。。・゜゜・。。・゜★\n\n - Contamos con los 20 titulos más recomendados! ")
 
 //Consulta del tipo de búsqueda
 do {
@@ -69,8 +69,8 @@ switch (respuesta) {
         // Búsqueda de genero en el array
         const mangaFiltradoGenero = mangas.filter(manga => manga.genero.includes(respuestaValidada) == true)
         mangaFiltradoGenero.forEach(manga => {
-            console.log(`Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de género ${manga.genero}. Tuvo su lanzamiento en el año ${manga.lanzamiento} y se encuentra disponible en la Editorial${manga.editorial}` + `</br>`)
-            document.write(`★ Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de género ${manga.genero}. Tuvo su lanzamiento en el año ${manga.lanzamiento} y se encuentra disponible en la Editorial${manga.editorial}` + `</br>`)
+            console.log(`Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de género ${manga.genero}. Tuvo su lanzamiento en el año ${manga.lanzamiento} y se encuentra disponible en la Editorial ${manga.editorial}` + `</br>`)
+            document.write(`★ Se ha encontrado el manga ${manga.titulo} del autor ${manga.autor}, es de género ${manga.genero}. Tuvo su lanzamiento en el año ${manga.lanzamiento} y se encuentra disponible en la Editorial ${manga.editorial}` + `</br>`)
         })
         break
     case 3://Por cantidad de tomos
